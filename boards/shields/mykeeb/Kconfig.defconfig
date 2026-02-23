@@ -1,0 +1,16 @@
+if SHIELD_MYKEEB_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "mykeeb"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_MYKEEB_LEFT
+
+if SHIELD_MYKEEB_LEFT || SHIELD_MYKEEB_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_MYKEEB_LEFT || SHIELD_MYKEEB_RIGHT
