@@ -31,5 +31,5 @@
             , <&key_physical_attrs 100 100  400  300     0    0    0>
             , <&key_physical_attrs 100 100  300  300     0    0    0>
             ;
-    };  /* <-- this was missing */
+    };
 };
